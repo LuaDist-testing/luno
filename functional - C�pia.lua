@@ -122,6 +122,10 @@ end
 
 
 function F.map(f, list)
+    if type(f) ~= "function" then
+        error("f must be a function", 2)
+    end
+
     local ret = {}
     for i, v in ipairs(list) do
         ret[i] = f(v)
