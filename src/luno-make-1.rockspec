@@ -1,18 +1,11 @@
--- This file was automatically generated for the LuaDist project.
 
-
-package = "luno"
-version = "20130304-1"
--- LuaDist source
-source = {
-  tag = "20130304-1",
-  url = "git://github.com/LuaDist-testing/luno.git"
+package = "Luno"
+version = "make-1"
+source =
+{
+    url = "git://github.com/echiesse/luno",
+    tag = ???
 }
--- Original source
--- source =
--- {
---     url = "http://luno.googlecode.com/files/luno-20130304.zip",
--- }
 
 description =
 {
@@ -22,10 +15,10 @@ The library comprises extended functions for dealing with strings, tables and io
 
 Luno offers a small framework for object oriented programming. It is possible do declare a class, define a contructor, methods and even use inheritance.
 
-Luno also provides support for functional programming. Functions like map, filter, reduce and many list operations are available. Also, support for function composition and partial parameter application (sometimes refered to as currying) is implemented.
+Luno also provides support for functional programming. Functions like map, filter, reduce and many list operations are available. Also support for function composition and partial parameter application (sometimes refered to as currying) is implemented.
+]],
 
-Note: Luno means Lua (moon) in esperanto.]],
-    homepage = "http://code.google.com/p/luno/",
+    homepage = "https://github.com/echiesse/luno",
     license = "MIT",
 }
 
