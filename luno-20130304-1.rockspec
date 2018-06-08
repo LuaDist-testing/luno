@@ -2,16 +2,16 @@
 
 
 package = "luno"
-version = "20130108-1"
+version = "20130304-1"
 -- LuaDist source
 source = {
-  tag = "20130108-1",
+  tag = "20130304-1",
   url = "git://github.com/LuaDist-testing/luno.git"
 }
 -- Original source
 -- source =
 -- {
---     url = "http://luno.googlecode.com/files/luno-20130108.zip",
+--     url = "http://luno.googlecode.com/files/luno-20130304.zip",
 -- }
 
 description =
